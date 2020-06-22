@@ -113,10 +113,10 @@ if ($_POST['submit']) {
         <span onclick="document.getElementById('id01').style.display='none'"    class="close" title="Close Modal">&times;</span>
         <form class="modal-content animate">
             <div class="imgcontainer">
-                <img src="avatarlogboy.png" width="100px" alt="Avatar" class="avatar">
-                <img src="avatarloggirl.png" width="100px" alt="Avatar" class="avatar">
+                <!-- <img src="avatarlogboy.png" width="100px" alt="Avatar" class="avatar">
+                <img src="avatarloggirl.png" width="100px" alt="Avatar" class="avatar"> -->
             </div>
-            <div class="container">
+            <div style="text-align:center;" class="container">
                 <label for="uname"><b>Username</b></label>
                 <input type="text" placeholder="Enter Username" name="uname" required>
                 <label for="psw"><b>Password</b></label>
