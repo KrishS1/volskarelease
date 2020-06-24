@@ -657,11 +657,11 @@ if ($_POST['submit']) {
         <script src="js/main.js"></script> -->
         <script>
         
-        //only put alert when release
-
-        // swal("Please tell me if there is any bugs, or if u have a suggestion, you can tell me in the comments :)");
         
-        //only put alert when release
+
+        swal("Please tell me if there is any bugs, DO NOT COPY CODE THIS TOOK ME 6MONTHS i can show proof, or if u have a suggestion, you can tell me in the comments :)");
+        
+        
 
         AOS.init({
         // offset: 400, // offset (in px) from the original trigger point
