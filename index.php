@@ -657,7 +657,7 @@ if ($_POST['submit']) {
         <script src="js/main.js"></script> -->
         <script>
         
-        
+        //e
 
         swal("Please tell me if there is any bugs, DO NOT COPY CODE THIS TOOK ME 6MONTHS i can show proof, or if u have a suggestion, you can tell me in the comments :)");
         
