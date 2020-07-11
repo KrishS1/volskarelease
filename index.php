@@ -44,13 +44,13 @@ if ($_POST['submit']) {
     <meta name="author" content="Krish">
     <meta name="designer" content="Krish">
     <meta name="publisher" content="Krish">
-    <meta property="og:url" content="COMING SOON">
+    <meta property="og:url" content="volskarelease.herokuapp.com">
     <meta property="og:site_name" content="Volska">
     <meta property="og:image" content="volska.png">
     <meta name="language" content="ES">
     <meta name="og:email" content="krishsuisun@gmail.com">
     <meta name="og:postal-code" content="94585">
-    <title>Volska | *UNREALESED* | Official Website | </title>
+    <title>Volska | *REALESED* | Official Website | </title>
     <link rel="icon" type="image/png" href="volskaLogo.png">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- font links -->
@@ -84,23 +84,55 @@ if ($_POST['submit']) {
 			<div data-aos="fade-down" class="alerte">
         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
         <p class="bold">ATTENTION</p>
-        <p class="alertptag">All businesses closed because of covid-19.</p>
+        <p class="alertptag">All businesses closed due to covid-19.</p>
     </div>
+    <div class="white">
     <div class="com" data-aos="fade-down">
         <img src="volska.png" alt="Volska">
         <p>The Dealership</p>
         <p> Languages used: HTML5 CSS3 JAVASCRIPT PHP | Other stuff added: BOOTSTRAP, FONTAWESOME, DATABASE, AJAX & JQUERY</p>
         <p> (Highlighting it makes it a little easier to read.)</p>
     </div>
+</div>
+<script>
+    $(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 200) {
+    $('.nav2').fadeIn();
+  } else {
+    $('.nav2').fadeOut();
+  }
+});
+</script>
+<div style="display: none;" class="nav2">
+<!-- <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  -->
+<p style="font-size: 10px; text-align center">Nav bar2 </p>
+<div class="nav2a">
 
-    <nav data-aos="fade-down">
+<a href="index.php">Home</a>
+<a href="#about">About Us</a>
+<a href="#services">Services</a>
+<a href="#reviews">Reviews</a>
+ <a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+        <a href="employee.php">Be an employee</a>   
+        <a href="news.html">News (updates)</a>     
+        <!--sign up -->
+         <a class="signupbtn2" onclick="document.getElementById('id02').style.display='block'">Sign Up</a>
+        <!-- login -->
+         <a class="loginButton" onclick="document.getElementById('id01').style.display='block'">Login</a>
+        <a href="catalog.html">Catalog</a>
+</div>
+</div> 
+    <nav class="white" data-aos="fade-down">
         <a href="index.php">Home</a>
         <a href="#about">About Us</a>
         <a href="#services">Services</a>
         <a href="#reviews">Reviews</a>
         <a href="#gallery">Gallery</a>
         <a href="#contact">Contact</a>
-        <a href="employee.php">Be an employee</a>        
+        <a href="employee.php">Be an employee</a>     
+        <a href="news.html">News (updates)</a>     
         <!--sign up -->
         <a class="signupbtn2" onclick="document.getElementById('id02').style.display='block'">Sign Up</a>
         <!-- login -->
@@ -190,7 +222,10 @@ if ($_POST['submit']) {
                 <div class="containercode">
                 <img src="volska.png" alt="Volska">
                 </div>
+
+                <div class="lambobackground">
                 <img src="lamadv.png" alt="Avatar" style="width:350px;">
+</div>
                 <div class="containercode" style="background-color:white">
                   <h2><b>20% OFF YOUR PURCHASE</b></h2> 
                   <p>We just released this website!, we decide to add a little 20% off code that expires on June 10th, 2020</p>
@@ -198,16 +233,20 @@ if ($_POST['submit']) {
                 <div class="containercode">
                   <p>Use Promo Code: <span class="promo">RELEASE</span></p>
                   <span class="promo">(all capitals)</span>
-                  <p class="expire">Expires: June 10th, 2020</p>
+                  <p class="expire">Expires: July 5th, 2020</p>
                 </div>
               </div>
     <br>
     <br><br><br><br>
      <div class="parallax">
-    <a name="about"></a>
-    <hr>
-    <h1>About Us</h1>
+    <a style="padding:0;" name="about"></a>
+    
+
     <div class="about">
+    
+    <h1>About Us</h1>
+    <hr>
+    <div class="about_content">
         <img  data-aos="fade-down" src="dealership1.jpg">
         <div  id="about-text" data-aos="fade-down">
             <p>
@@ -225,15 +264,21 @@ if ($_POST['submit']) {
             <button onclick="showText()" id ="readmore" class="button" type="submit" class="sweep">Read More</button>
         </div>
     </div>
-    <br><br>
+    </div>
+    <!-- <br><br>
     <br>
     <br><br>
-    <br>
-    <hr> 
+    <br> -->
+    
 
-    <a name="services"></a>
+    <a style="padding: 0;" name="services"></a>
+
+    <div style="margin:1px;"  data-aos="fade-down" class="services">
+    <div class="servicesh1">
     <h1>Our Services</h1> 
-    <div  data-aos="fade-down" class="services">
+    <hr>
+</div>
+    <!-- <h1>Our Services</h1>  -->
         <div class="col-md-3 text-center">
             <div class="icon"style="background-image: url('MemberShip.jpg');background-size: cover; background-position: center;" >
         </div>
@@ -261,28 +306,31 @@ if ($_POST['submit']) {
         <h3>Employee</h3>
         <p>Fill in the employee form at the delarship or online on the website.</p>
     </div>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+</div>
+        <!-- <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br> -->
   
 
-    <a name="reviews"></a>
+    <a style="padding:0;" name="reviews"></a>
     
     <div data-aos="fade-down" class="reviews">
+    <!-- <br>
     <br>
     <br>
-    <br>
+    
+    <br> -->
+    <div class="reviews">
+    <h1>Reviews</h1>
     <div><hr style="text-align:center; padding-left:-600px;"></div>
-        <h1>Reviews</h1>
         <div class="col-md-2">
         
             <h2>Bryant Asa</h2>
-            <img src="noob.jpeg" alt="" width="150px" height="159px">
+            <img src="noob.jpeg" alt="e" width="150px" height="159px">
             <hr>
             <p>
                 I went to Volska to see what my options was in obtain a new model car and upgrade from my 2003 PT Cruiser.
@@ -302,7 +350,7 @@ if ($_POST['submit']) {
 
         <div class="col-md-2">
             <h2>Ruby Amelle</h2>
-            <img src="noob2.jpeg" alt="" width="100px" height="100px" >
+            <img src="noob2.jpeg" alt="e" width="100px" height="100px" >
             <hr>
             <p>
             Came here because I got a pre approval for a new car. Krish helped me out with the whole process.  He is super patient.  Very very friendly and very helpful. He was willing to work with me and got me the car I really wanted and didn't think would be possible to drive off with today.
@@ -323,7 +371,7 @@ if ($_POST['submit']) {
 
         <div class="col-md-2">
             <h2>Shanda TW</h2>
-            <img src="noob3.jpg" alt="" width="100px" height="100px" >
+            <img src="noob3.jpg" alt="e" width="100px" height="100px" >
             <hr>
             <p>
                  I went to Volska in Vacaville yesterday and I had the most awesome experience. I met and two of the most wonderful men Raymond G. and Mario and they made my car buying experience stress free and it did not take forever. First I love being greeted when I walked in the door, and then Mario introduce his self to me and he in turn introduce me to Raymond who made sure I was comfortable. We ran into a problem, and he stuck with until it got resolved, and for that I am grateful. I wish I knew more to say about this young and his awesome customer service. I told my sister about my experience with these two men and she wants to come and get her car. I told her to be sure she ask for Mario and Raymond she will be guaranteed a wonderful experience. Thank you so much Mario and Raymond.
@@ -336,17 +384,20 @@ if ($_POST['submit']) {
             <span class="fa fa-star checked"></span>
         </div>
     </div>
+</div>
+</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <br>
+    <br>
 
-    <br>
-    <br>
-    <br>
-    <hr>
-    <br>
-    <br>
-
-    <a name="gallery"></a>
+    <a style="padding:0;" name="gallery"></a>
     <div data-aos="fade-down" class="gallery">
-        <h1>Our Gallery</h1>
+        <h1 style="color: black;">Our Gallery</h1>
+        <hr>
         <!-- first car -->        
         <div class="topRow">
             <div class="flip-card"  >
@@ -454,9 +505,9 @@ if ($_POST['submit']) {
                 </div>
             </div>
         </div>
-        <br>
-        <br>
-        <hr>
+        <!-- <br>
+        <br> -->
+        <!-- <hr> -->
 
         <ul>
             <script>
@@ -506,11 +557,12 @@ if ($_POST['submit']) {
             </script>
         </ul>
         
-        <div data-aos="fade-down" id="container" class="col-xs-6 col-xs-offset-3"> 
-            <div class="row">
-                <h2>Search Our Cars</h2>
-                <p>NOTE: If you want to see the 2021 Toyota cars, search 2021. Or the earlier verisons of Toyota</p>
-                <p> Versions of Toyota: 2021, 2019, 2018 </p>
+        <div data-aos="fade-down" id="container" class="searchbackground"> 
+            <div class="row1">
+                <h2 style="color: white;">Search Our Cars</h2>
+                <hr>
+                <p style="color: white;">NOTE: If you want to see the 2021 Toyota cars, search 2021. Or the earlier verisons of Toyota</p>
+                <p style="color: white;"> Versions of Toyota: 2021, 2019, 2018 </p>
                 <h4 class="searchcarsh4">These are other dealership's cars ||| we redesign cars and sell cars ||| we will start making cars.</h4>
                 <input class='form-control' type="text" name='search' id='search' placeholder='Search our inventory'>
             
@@ -521,21 +573,23 @@ if ($_POST['submit']) {
             </div>
         </div>
             </div>
-        <br>
-        <br>
+        <!-- <br>
+        <br> -->
      
 
-        <a name="contact"></a>
+        <a style="padding:0;" name="contact"></a>
 
         <div class="CENTERCONTACT">
         <div id="contact-wrapper" style="text-align:center;">
-
-        <div class="contact"><section id="contact">
-            <hr>
+<!-- <br>
+<br><br><br><br><br><br><br><br><br><br><br> -->
+        <div class="contact"><!--<h1>Contact Form</h1><p>Send a message via the form below</p><hr>--><section id="contact">
+            <!-- <hr> -->
             <div class="container" data-aos="fade-down">
                 <div class="row">
                     <div class="col-md-6 offset-md-3">
                         <h1>Contact Form</h1>
+                        <hr>
                         <?php echo $result;?>
                         <p>Send a message via the form below</p>
                         <form method="post" role="form">
@@ -566,7 +620,7 @@ if ($_POST['submit']) {
         </div>
     </div>
     </div>
-    <div class="bottom">
+    <div style="background-image: url(footer-background.jpg);" class="animate__animated animate__fadeInDown" class="bottom">
         <div class="left col">
             <img src="volskaimgfoot.png" width="180px" />
             <hr>
@@ -628,10 +682,12 @@ if ($_POST['submit']) {
 		padding: 9px 12px;
         border-radius: 20px;
         width: 50px;
+        background-color:white; 
+		color: black;
 	}
 	.top:hover{
-		background-color: black;
-		color: white;
+		background-color:white; 
+		color: purple;
 	}
 
 </style>
@@ -651,13 +707,14 @@ if ($_POST['submit']) {
     })
 
 
-})</script>
+})
+</script>
 		<!-- <script src="js/classie.js"></script>
 		<script src="js/pathLoader.js"></script>
         <script src="js/main.js"></script> -->
         <script>
         
-        //e
+        
 
         swal("Please tell me if there is any bugs, DO NOT COPY CODE THIS TOOK ME 6MONTHS i can show proof, or if u have a suggestion, you can tell me in the comments :)");
         

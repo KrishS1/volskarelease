@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Krub');
 body{
     margin: 0px;
+    color: white;
 }
 h1{
     font-family: 'Kurb',sans-serif;
@@ -36,9 +37,11 @@ h1{
     padding: 2px 16px;
     background-color: #f1f1f1;
   }
-  
+  .containercode{
+    color: black;
+  }
   .promo {
-    background: #ccc;
+    background: rgb(0, 0, 0);
     padding: 3px;
   }
   
@@ -108,11 +111,11 @@ h1{
 }
 .buyNowButton{
     margin: 0px;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 5px;
     padding: 5px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     transition: all 0.2s;
 }
 .buyNowButton:hover{

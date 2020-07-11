@@ -1,5 +1,5 @@
 <!-- 
-<?php
+<//?php
 
 include("db.php");
 
@@ -37,44 +37,44 @@ include("db.php");
 <script>
     
     
-      $(document).ready(function(){
+     // $(document).ready(function(){
          
 
 
 //      $("#action-container").hide();
          
-         $(".title-link").on('click', function(){
+        // $(".title-link").on('click', function(){
          
          
-             $("#action-container").show();
+            // $("#action-container").show();
+             
+          //   
+           //  var id = $(this).attr("rel");
              
              
-             var id = $(this).attr("rel");
-             
-             
-             $.post("process.php", {id: id}, function(data){
+           //  $.post("process.php", {id: id}, function(data){
              
               
-                 $("#action-container").html(data);
+              //   $("#action-container").html(data);
              
              
              
-             });
+            // });
              
          
 
          
-         });
+       //  });
           
           
-  });
+  //});
 
 
 
 
 
 
-</script>
+// <!-- </script>
 
 
 
