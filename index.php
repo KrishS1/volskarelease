@@ -509,7 +509,7 @@ if ($_POST['submit']) {
         <br> -->
         <!-- <hr> -->
 
-        <ul>
+        <!-- <ul>
             <script>
                 $(document).ready(function(){
                     /**********Update Cars Table Display with time ****************/ 
@@ -555,7 +555,7 @@ if ($_POST['submit']) {
                     });
                 }); // Document ready function end
             </script>
-        </ul>
+        </ul> -->
         
         <div data-aos="fade-down" id="container" class="searchbackground"> 
             <div class="row1">
