@@ -330,7 +330,9 @@ if ($_POST['submit']) {
         <div class="col-md-2">
         
             <h2>Bryant Asa</h2>
-            <img src="noob.jpeg" alt="e" width="150px" height="159px">
+            <div class="img">
+<!--            <img src="noob.jpeg" alt="e" width="150px" height="159px">-->
+            </div>
             <hr>
             <p>
                 I went to Volska to see what my options was in obtain a new model car and upgrade from my 2003 PT Cruiser.
@@ -350,7 +352,9 @@ if ($_POST['submit']) {
 
         <div class="col-md-2">
             <h2>Ruby Amelle</h2>
-            <img src="noob2.jpeg" alt="e" width="100px" height="100px" >
+              <div class="img2">
+<!--            <img src="noob.jpeg" alt="e" width="150px" height="159px">-->
+            </div>
             <hr>
             <p>
             Came here because I got a pre approval for a new car. Krish helped me out with the whole process.  He is super patient.  Very very friendly and very helpful. He was willing to work with me and got me the car I really wanted and didn't think would be possible to drive off with today.
@@ -371,7 +375,9 @@ if ($_POST['submit']) {
 
         <div class="col-md-2">
             <h2>Shanda TW</h2>
-            <img src="noob3.jpg" alt="e" width="100px" height="100px" >
+            <div class="img3">
+<!--            <img src="noob.jpeg" alt="e" width="150px" height="159px">-->
+            </div>
             <hr>
             <p>
                  I went to Volska in Vacaville yesterday and I had the most awesome experience. I met and two of the most wonderful men Raymond G. and Mario and they made my car buying experience stress free and it did not take forever. First I love being greeted when I walked in the door, and then Mario introduce his self to me and he in turn introduce me to Raymond who made sure I was comfortable. We ran into a problem, and he stuck with until it got resolved, and for that I am grateful. I wish I knew more to say about this young and his awesome customer service. I told my sister about my experience with these two men and she wants to come and get her car. I told her to be sure she ask for Mario and Raymond she will be guaranteed a wonderful experience. Thank you so much Mario and Raymond.
@@ -392,6 +398,12 @@ if ($_POST['submit']) {
     <br>
     
     <br>
+    <br>
+   <br>
+    <br>
+    <br>
+    <br>
+    
     <br>
 
     <a style="padding:0;" name="gallery"></a>
