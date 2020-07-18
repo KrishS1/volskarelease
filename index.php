@@ -13,14 +13,14 @@ if ($_POST['submit']) {
 	if (!$_POST['check']) {
 		$error.="<br/>- Please confirm you are human";
 	}
-	
+
 	if ($error) {
 		$result='<div class="alert alert-danger" role="alert"><strong>Whoops, there is an error</strong>. Please correct the following: '.$error.'</div>';
 	} else {
 		mail("krishsuisun@gmail.com, krish2suisun@gmail.com", "Contact message", "Name: ".$_POST['name']."
 		Email: ".$_POST['name']."
 		Message: ".$_POST['message']);
-		
+
 		{
       $_POST = array();
 		$result='<div class="alert alert-success" role="alert">Thank you, I\'ll be in touch shortly</div>';
@@ -82,7 +82,7 @@ if ($_POST['submit']) {
 
 
 			<div data-aos="fade-down" class="alerte">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
         <p class="bold">ATTENTION</p>
         <p class="alertptag">All businesses closed due to covid-19.</p>
     </div>
@@ -115,15 +115,15 @@ if ($_POST['submit']) {
 <a href="#reviews">Reviews</a>
  <a href="#gallery">Gallery</a>
 <a href="#contact">Contact</a>
-        <a href="employee.php">Be an employee</a>   
-        <a href="news.html">News (updates)</a>     
+        <a href="employee.php">Be an employee</a>
+        <a href="news.html">News (updates)</a>
         <!--sign up -->
          <a class="signupbtn2" onclick="document.getElementById('id02').style.display='block'">Sign Up</a>
         <!-- login -->
          <a class="loginButton" onclick="document.getElementById('id01').style.display='block'">Login</a>
         <a href="catalog.html">Catalog</a>
 </div>
-</div> 
+</div>
     <nav class="white" data-aos="fade-down">
         <a href="index.php">Home</a>
         <a href="#about">About Us</a>
@@ -131,12 +131,12 @@ if ($_POST['submit']) {
         <a href="#reviews">Reviews</a>
         <a href="#gallery">Gallery</a>
         <a href="#contact">Contact</a>
-        <a href="employee.php">Be an employee</a>     
-        <a href="news.html">News (updates)</a>     
+        <a href="employee.php">Be an employee</a>
+        <a href="news.html">News (updates)</a>
         <!--sign up -->
         <a class="signupbtn2" onclick="document.getElementById('id02').style.display='block'">Sign Up</a>
         <!-- login -->
-        <a class="loginButton" onclick="document.getElementById('id01').style.display='block'">Login</a> 
+        <a class="loginButton" onclick="document.getElementById('id01').style.display='block'">Login</a>
         <a href="catalog.html">Catalog</a>
     </nav>
 
@@ -175,7 +175,7 @@ if ($_POST['submit']) {
                 <hr>
                 <label for="uname"><b>Username</b></label>
                 <input type="text" placeholder="Enter Username" name="uname" required>
-                
+
                 <label for="psw"><b>Password</b></label>
                 <input type="password" placeholder="Enter Password" name="psw" required>
 
@@ -184,15 +184,15 @@ if ($_POST['submit']) {
 
                 <label for="email"><b>Email</b></label>
                 <input type="text" placeholder="Enter Email" name="email" required>
-        
+
                 <label for="psw"><b>Password</b></label>
                 <input type="password" placeholder="Enter Password" name="psw" required>
-        
+
                 <label for="psw-repeat"><b>Repeat Password</b></label>
                 <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
                 <div class="gender">
                     <label>
-                        <input type="checkbox" checked="checked" name="gender" style="margin-bottom:15px"> Female 
+                        <input type="checkbox" checked="checked" name="gender" style="margin-bottom:15px"> Female
                     </label>
                     <br>
                     <br>
@@ -214,7 +214,7 @@ if ($_POST['submit']) {
         </form>
     </div>
 
-    <!--sign up end-->     
+    <!--sign up end-->
     <br>
     <br>
     <br>
@@ -227,7 +227,7 @@ if ($_POST['submit']) {
                 <img src="lamadv.png" alt="Avatar" style="width:350px;">
 </div>
                 <div class="containercode" style="background-color:white">
-                  <h2><b>20% OFF YOUR PURCHASE</b></h2> 
+                  <h2><b>20% OFF YOUR PURCHASE</b></h2>
                   <p>We just released this website!, we decide to add a little 20% off code that expires on June 10th, 2020</p>
                 </div>
                 <div class="containercode">
@@ -240,10 +240,10 @@ if ($_POST['submit']) {
     <br><br><br><br>
      <div class="parallax">
     <a style="padding:0;" name="about"></a>
-    
+
 
     <div class="about">
-    
+
     <h1>About Us</h1>
     <hr>
     <div class="about_content">
@@ -269,13 +269,13 @@ if ($_POST['submit']) {
     <br>
     <br><br>
     <br> -->
-    
+
 
     <a style="padding: 0;" name="services"></a>
 
     <div style="margin:1px;"  data-aos="fade-down" class="services">
     <div class="servicesh1">
-    <h1>Our Services</h1> 
+    <h1>Our Services</h1>
     <hr>
 </div>
     <!-- <h1>Our Services</h1>  -->
@@ -314,21 +314,21 @@ if ($_POST['submit']) {
         <br>
         <br>
         <br> -->
-  
+
 
     <a style="padding:0;" name="reviews"></a>
-    
+
     <div data-aos="fade-down" class="reviews">
     <!-- <br>
     <br>
     <br>
-    
+
     <br> -->
     <div class="reviews">
     <h1>Reviews</h1>
     <div><hr style="text-align:center; padding-left:-600px;"></div>
         <div class="col-md-2">
-        
+
             <h2>Bryant Asa</h2>
             <div class="img">
 <!--            <img src="noob.jpeg" alt="e" width="150px" height="159px">-->
@@ -337,9 +337,9 @@ if ($_POST['submit']) {
             <p>
                 I went to Volska to see what my options was in obtain a new model car and upgrade from my 2003 PT Cruiser.
                 Krish was so great in helping me what my options were, Mario and Boston these two men did soo much for me. <br>
-                
+
                 I came in on  Wednesday evening just to see what my options were and on Thursday the next day I had keys in my had for my new car. <br>
-                
+
                 I highly recommend Volska.
             </p>
             <hr>
@@ -361,7 +361,7 @@ if ($_POST['submit']) {
 
             I am extremely grateful and definitely reccomend anyone looking to buy a new car to check out Volska in Vacaville. I drove 1 hour from Marin County today to get my new car. Worth the drive and your time!
 
-            They get to the point and dont have you waiting for hours on what you are approved for. Straight to the point and super helpful!  
+            They get to the point and dont have you waiting for hours on what you are approved for. Straight to the point and super helpful!
 
             Thank you so happy !!!
             </p>
@@ -396,21 +396,21 @@ if ($_POST['submit']) {
     <br>
     <br>
     <br>
-    
+
     <br>
     <br>
    <br>
     <br>
     <br>
     <br>
-    
+
     <br>
 
     <a style="padding:0;" name="gallery"></a>
     <div data-aos="fade-down" class="gallery">
         <h1 style="color: black;">Our Gallery</h1>
         <hr>
-        <!-- first car -->        
+        <!-- first car -->
         <div class="topRow">
             <div class="flip-card"  >
                 <div class="flip-card-inner">
@@ -420,10 +420,10 @@ if ($_POST['submit']) {
                         </div>
                     </div>
                     <div class="flip-card-back">
-                        <h1>Redesigned Car</h1> 
+                        <h1>Redesigned Car</h1>
                         <p>
                             The car was made on 2017. We bought a car and redesigned it. Our team put lights like pink blue. We animated the background so no one sees our base and steals. Elijah put lights on the tires. He also changed the tires to more stable ones. The price is 600,000 USD.
-                        </p> 
+                        </p>
                         <hr>
                         <div class="mobilenoshow">
                             <h3>Some Parts Used</h3>
@@ -442,7 +442,7 @@ if ($_POST['submit']) {
                         </div>
                     </div>
                     <div class="flip-card-back">
-                        <h1>Lamborghini</h1> 
+                        <h1>Lamborghini</h1>
                         <p>
                             This lamborghini was made in 2018. It was simple. But our co founder Bran added rgb to the lamborghini. It was released on 2018 March 7th. It was called the neon lambroghini. The lamborghini had a signature of Bran. The lamborghini had a price of 250,000 USD but when Bran added rgb the price increased to 500,000 USD.
                         </p>
@@ -451,7 +451,7 @@ if ($_POST['submit']) {
                             <h3> Some Parts used</h3>
                             <p>
                                 Lamborghini GiroDisc Brake Pads, Pilot PS2, Night Rider Scanning LED Tailgate Light Bar, Turbocharger Inlet Seal O-Ring
-                            </p> 
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -478,7 +478,7 @@ if ($_POST['submit']) {
                     </div>
                 </div>
             </div>
-    
+
             <div class="flip-card"  >
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
@@ -487,8 +487,8 @@ if ($_POST['submit']) {
                         </div>
                     </div>
                     <div class="flip-card-back">
-                        <h1>Audi</h1> 
-                        <p>The car was made on 2017. We bought a car and redesigned a bit it. We selled it, but nicer. We put a sale on it, we put better interior & has the best tires than Audi has ever put on their cars!  The price is 750,080 USD.</p> 
+                        <h1>Audi</h1>
+                        <p>The car was made on 2017. We bought a car and redesigned a bit it. We selled it, but nicer. We put a sale on it, we put better interior & has the best tires than Audi has ever put on their cars!  The price is 750,080 USD.</p>
                         <hr>
                         <div class="mobilenoshow">
                             <h3>Some Parts Used</h3>
@@ -506,12 +506,12 @@ if ($_POST['submit']) {
                         </div>
                     </div>
                     <div class="flip-card-back">
-                        <h1>Ferrari</h1> 
+                        <h1>Ferrari</h1>
                         <p>This Ferrari was made in 2015. It was simple. But our co founder Bran added color ful lights to it. It was released on 2016 March 5th. It was called the neon ferrari. The Ferrari had a signature of Mike. The ferrari had a price of 400,000 USD but when Bran added rgb the price increased to 880,000 USD.</p>
                         <hr>
                         <div class="mobilenoshow">
                             <h3> Some Parts used</h3>
-                            <p>Sparco - Settanta Series Aluminum Manual Pedal Pad Set, Rixxu - Headrest Tablet Holder, Sparco - Settanta Series Shift Knob</p> 
+                            <p>Sparco - Settanta Series Aluminum Manual Pedal Pad Set, Rixxu - Headrest Tablet Holder, Sparco - Settanta Series Shift Knob</p>
                         </div>
                     </div>
                 </div>
@@ -524,24 +524,24 @@ if ($_POST['submit']) {
         <ul>
             <script>
                 $(document).ready(function(){
-                    /**********Update Cars Table Display with time ****************/ 
+                    /**********Update Cars Table Display with time ****************/
                     setInterval(function(){
                         updateCars();
-                    }, 500); 
-                    /******* ***Update Cars Table ****************/   
-                    function updateCars(){
-                        $.ajax({
-                            url: 'display_cars.php',
-                            type: 'POST',
-                            success: function(show_cars){
-                                if(!show_cars.error) {
-                                    $("#show-cars").html(show_cars);
-                                }
-                            }
-        
-                        });
-                    }
-                    /**********Search Cars Table ****************/         
+                    }, 500);
+                    /******* ***Update Cars Table ****************/
+                    // function updateCars(){
+                    //     $.ajax({
+                    //         url: 'display_cars.php',
+                    //         type: 'POST',
+                    //         success: function(show_cars){
+                    //             if(!show_cars.error) {
+                    //                 $("#show-cars").html(show_cars);
+                    //             }
+                    //         }
+										//
+                    //     });
+                    // }
+                    /**********Search Cars Table ****************/
                     $('#search').keyup(function(){
                         var search = $('#search').val();
                         $.ajax({
@@ -555,7 +555,7 @@ if ($_POST['submit']) {
                             }
                         });
                     });
-                    // This code add cars to database table cars       
+                    // This code add cars to database table cars
                     $("#add-car-form").submit(function(evt){
                         evt.preventDefault();
                         var postData = $(this).serialize();
@@ -563,13 +563,13 @@ if ($_POST['submit']) {
                         $.post(url, postData, function(php_table_data){
                             $("#car-result").html(php_table_data);
                             $("#add-car-form")[0].reset();
-                        }); 
+                        });
                     });
                 }); // Document ready function end
             </script>
         </ul>
-        
-        <div data-aos="fade-down" id="container" class="searchbackground"> 
+
+        <div data-aos="fade-down" id="container" class="searchbackground">
             <div class="row1">
                 <h2 style="color: white;">Search Our Cars</h2>
                 <hr>
@@ -577,17 +577,17 @@ if ($_POST['submit']) {
                 <p style="color: white;"> Versions of Toyota: 2021, 2019, 2018 </p>
                 <h4 class="searchcarsh4">These are other dealership's cars ||| we redesign cars and sell cars ||| we will start making cars.</h4>
                 <input class='form-control' type="text" name='search' id='search' placeholder='Search our inventory'>
-            
+
                 <br>
                 <br>
-                <h2 class="bg-success" id="result">    
+                <h2 class="bg-success" id="result">
                 </h2>
             </div>
         </div>
             </div>
         <!-- <br>
         <br> -->
-     
+
 
         <a style="padding:0;" name="contact"></a>
 
@@ -605,7 +605,7 @@ if ($_POST['submit']) {
                         <?php echo $result;?>
                         <p>Send a message via the form below</p>
                         <form method="post" role="form">
-                            <div class="form-group">    						
+                            <div class="form-group">
                                 <input type="text" name="name" class="form-control" placeholder="Your name" value="<?php echo $_POST['name']; ?>">
                             </div>
                             <div class="form-group">
@@ -613,16 +613,16 @@ if ($_POST['submit']) {
                             </div>
                             <div class="form-group">
                                 <textarea name="message" rows="5" class="form-control" placeholder="message..."><?php echo $_POST['message']; ?>
-                                </textarea>    					
+                                </textarea>
                             </div>
                             <div class="checkbox">
                                 <label>
                                     <input type="checkbox" name="check"> I am human
                                 </label>
-                            </div>		
+                            </div>
                             <div textalign="center">
                                 <input onclick="window.location.href=window.location.href+'#contact'" type="submit" name="submit" class="btn btn-secondary" value="Send message"/>
-                            </div>	
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -656,23 +656,23 @@ if ($_POST['submit']) {
                 <br>
                 <li>  <a href="#gallery">Gallery</a> </li>
                 <br>
-                <li> <a href="#contact">Contact</a> </li> 
+                <li> <a href="#contact">Contact</a> </li>
                 <br>
-                <li> <a href="employee.php">Be an employee</a> </li> 
+                <li> <a href="employee.php">Be an employee</a> </li>
                 <br>
                 <li><a href="catalog.html">Catalog</a></li>
                 <!-- <br><br><br><br><br><br> -->
-                
+
                 <!-- <br><br><br> -->
 <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
-            
+
             </ul>
             <br>
             <p style="color:white; font-size: 20px;">© 2020 Volska</p>
             </div>
         </div>
         <div class="right col">
-            <h2 style="color:white;"> One of our dealerships.</h2> 
+            <h2 style="color:white;"> One of our dealerships.</h2>
             <hr>
             <br>
             <div class="deal">
@@ -680,7 +680,7 @@ if ($_POST['submit']) {
             </div>
         <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
         </div>
-        
+
     </div>
     <a data-aos="fade-down" href="#top" id="topbtn" class="top"><i class="fa fa-home"></i></a>
 <style>
@@ -694,11 +694,11 @@ if ($_POST['submit']) {
 		padding: 9px 12px;
         border-radius: 20px;
         width: 50px;
-        background-color:white; 
+        background-color:white;
 		color: black;
 	}
 	.top:hover{
-		background-color:white; 
+		background-color:white;
 		color: purple;
 	}
 
@@ -707,7 +707,7 @@ if ($_POST['submit']) {
     var headerHeight = $('nav').outerHeight();
 
     var scrolllink = $('.scroll');
-    
+
 
 
     scrolllink.click(function(e){
@@ -725,12 +725,12 @@ if ($_POST['submit']) {
 		<script src="js/pathLoader.js"></script>
         <script src="js/main.js"></script> -->
         <script>
-        
-        
+
+
 
         swal("Please tell me if there is any bugs, DO NOT COPY CODE THIS TOOK ME 6MONTHS i can show proof, or if u have a suggestion, you can tell me in the comments :)");
-        
-        
+
+
 
         AOS.init({
         // offset: 400, // offset (in px) from the original trigger point
