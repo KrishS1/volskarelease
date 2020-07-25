@@ -42,36 +42,7 @@ body, html{
   font-family: Raleway;
 /* color: white; */
 }
-.img{
-    background-image:url("noob.jpeg");
-    width:80%;
-    height:30%;
-    background-size: cover;
-/*    background-attachment: fixed;*/
-    border: 2px black solid;
-/*    width: 50%;*/
-     margin: auto;
-}
-.img2{
-    background-image:url("noob2.jpeg");
-    width:80%;
-    height:30%;
-    background-size: cover;
-/*    background-attachment: fixed;*/
-    border: 2px black solid;
-/*    width: 50%;*/
-     margin: auto;
-}
-.img3{
-    background-image:url("noob3.jpg");
-    width:80%;
-    height:20%;
-    background-size: cover;
-/*    background-attachment: fixed;*/
-    border: 2px black solid;
-/*    width: 50%;*/
-     margin: auto;
-}
+
 html{
   overflow-x: hidden;
 }
@@ -574,7 +545,7 @@ nav a:hover{
     /* background-image: url(review.jpg); */
     background-attachment: fixed;
     background-size: cover;
-    height: 130%;
+    height: 120%;
     color: black;
     padding-top: 1;
   }
