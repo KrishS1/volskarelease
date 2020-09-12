@@ -52,6 +52,7 @@ if ($_POST['submit']) {
     <meta name="og:postal-code" content="94585">
     <title>Volska | *REALESED* | Official Website | </title>
     <link rel="icon" type="image/png" href="volskaLogo.png">
+    <meta name="google-site-verification" content="o5sny8JYdacuNhmwSKTZScPlpTBl6SLhZVvIzOvf5o0" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- font links -->
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
